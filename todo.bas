@@ -52,8 +52,7 @@ END SUB
 SUB PrintFooter
     print "</main>"
     'PRINT "<footer>"
-    '    print "<div>"
-    '        print "<p>Created by Jagdish Varma.<p>"
+    '    print "<div>
     'Print "</footer>"
     PRINT "</body>"
     PRINT "</html>"
