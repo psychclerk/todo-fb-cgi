@@ -2,6 +2,14 @@ This code is a **CGI-based web application** written in freebasic #lang qb mode 
 
 ---
 
+### **How to run**
+1. Compiled exe
+   - Place the compiled todo.exe in the cgi-bin folder
+   - create a tasks.txt and done.txt files in the cgi-bin folder
+   - setup the httpd.conf to allow running exe files [ask ChatGPT for instructions]
+2. To Compile from source
+   - Compile the todo.bas using freebasic compiler 
+   
 ### **Features and Workflow**
 1. **Entry Point:**
    - The script reads the `QUERY_STRING` environment variable to determine user input, such as actions (add, edit, delete tasks, etc.).
